@@ -13,6 +13,7 @@ Generates customized cold emails tailored to the role and required skills.
 Built with Streamlit for an easy-to-use UI.
 
 🔄 How It Works
+
 1️⃣ Extract Careers Page Content
 
 LangChain orchestrates Llama 3 via Groq Cloud to extract structured job descriptions from text.
@@ -31,6 +32,7 @@ Matched context and prompts sent to Llama 3 via Groq Cloud for generating person
 
 
 🧱 System Design
+
 Components
 ✅ chains.py – Core Email Generation Engine
 extract_jobs(cleaned_text):
@@ -58,15 +60,22 @@ Loads job content → cleans it → extracts jobs → matches projects → gener
 Displays cold emails as markdown in the browser.
 
 🧰 Tech Stack
-Tool/Library	Purpose
-LangChain	Framework to build LLM chains
-Llama 3 via Groq	LLM model for text generation
-ChromaDB	Vector storage (planned integration)
-Streamlit	Web UI
-pdfplumber	(Optional) For extracting text from PDFs
-Python 3.11	Core language
+
+Tool/Library	          Purpose
+
+LangChain	              Framework to build LLM chains
+
+Llama 3 via Groq	      LLM model for text generation
+
+ChromaDB	              Vector storage (planned integration)
+
+Streamlit             	Web UI
+
+Python 3.11	            Core language
+
 
 🧪 Setup Instructions
+
 1. Clone the repository
 2. Install dependencies
 3. Create .env file with API key
