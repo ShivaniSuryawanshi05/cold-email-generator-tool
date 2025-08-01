@@ -4,6 +4,9 @@ __pycache__/
 *.py[cod]
 *.so
 
+**/.ipynb_checkpoints/
+
+
 # ------------------------
 # Jupyter notebooks checkpoints
 .ipynb_checkpoints/
