@@ -1,4 +1,29 @@
-.env
-*.ipynb
+# ------------------------
+# Python cache and bytecode
 __pycache__/
+*.py[cod]
+*.so
+
+# ------------------------
+# Jupyter notebooks checkpoints
+.ipynb_checkpoints/
+
+# ------------------------
+# Environment variables / secrets
+.env
+*.env
+
+# ------------------------
+# VS Code / PyCharm IDE settings
+.vscode/
+.idea/
+
+# ------------------------
+# SQLite / Vectorstore files
 vectorstore/
+*.sqlite3
+
+# ------------------------
+# OS/system files
+.DS_Store
+Thumbs.db
